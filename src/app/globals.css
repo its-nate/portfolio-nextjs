@@ -2,32 +2,208 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* 
+=========================
+Global Styles
+========================= 
+*/
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: "Ubuntu", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+main {
+  flex: 1 0 auto;
+}
+
+/* body {
+  font-family: "Ubuntu", sans-serif;
+} */
+
+.container {
+  width: 55%;
+}
+
+/* 
+=========================
+Utils
+========================= 
+*/
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+/* 
+=========================
+Nav
+========================= 
+*/
+
+nav {
+  background-color: white;
+  box-shadow: none;
+  margin: 0 auto;
+}
+
+#nav-mobile,
+.nav-item {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c2c2c;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.nav-item:hover {
+  background-color: white;
+  text-decoration-color: #fda245;
+  text-decoration-line: underline;
+}
+
+.sidenav li > a:hover {
+  background-color: white;
+}
+
+nav.nav-center ul {
+  text-align: center;
+}
+nav.nav-center ul li {
+  display: inline;
+  float: none;
+}
+nav.nav-center ul li a {
+  display: inline-block;
+}
+
+.sidenav-trigger {
+  color: #2c2c2c;
+}
+
+.sidenav > li {
+  margin: 40px 0 0 40px;
+}
+
+.sidenav > li,
+.sidenav > li > a {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.active-nav {
+  text-decoration-color: #fda245;
+  text-decoration-line: underline;
+}
+
+/* 
+=========================
+Page Styles
+========================= 
+*/
+
+.page-header {
+  color: #fda245;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.page-subhead {
+  color: #2c2c2c;
+  font-size: 5.5rem;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.page-body {
+  font-size: 2rem;
+}
+
+.page-link {
+  color: #2c2c2c;
+  text-decoration: underline;
+}
+
+.page-top-skills {
+  font-weight: 700;
+  margin-top: 0;
+}
+
+h3.page-body {
+  margin-top: 0;
+}
+
+.skills-list-header {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  width: 85%;
+}
+
+.skills-list {
+  margin: 0 0 0 1.5rem;
+}
+
+.profile-img {
+  margin: 30px auto 0 auto;
+  width: 50%;
+}
+
+/* 
+=========================
+Footer
+========================= 
+*/
+
+.page-footer {
+  margin-top: 20px;
+  padding-top: 0;
+  background-color: white;
+}
+
+.page-footer .footer-copyright {
+  background-color: white;
+}
+
+.footer-text {
+  color: #2c2c2c;
+}
+
+/* 
+=========================
+Media Breaks
+========================= 
+*/
+
+@media only screen and (max-width: 992px) {
+  .container {
+    width: 80%;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+@media only screen and (max-width: 601px) {
+  .page-top-skills {
+    text-align: left;
+  }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .page-header {
+    font-size: 3rem;
+  }
+
+  .page-subhead {
+    font-size: 4.5rem;
+  }
+
+  .first-list {
+    margin-bottom: 1.5rem;
+  }
+
+  .profile-img {
+    margin: 30px auto 0 auto;
+    width: 100%;
   }
 }
