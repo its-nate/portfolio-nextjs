@@ -1,4 +1,4 @@
-import Head from "next/head";
+import "materialize-css/dist/css/materialize.css";
 import "./globals.css";
 import ClientLayout from "./components/ClientLayout";
 
@@ -29,16 +29,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <link
-          href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
       <body>
         <ClientLayout>{children}</ClientLayout>
       </body>

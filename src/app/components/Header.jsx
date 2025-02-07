@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Hamburger from "../icons/Hamburger";
 
 const Header = (props) => {
   let activeNav = props.activePage;
@@ -69,7 +70,7 @@ const Header = (props) => {
       <nav className="nav-center">
         <div className="nav-wrapper">
           <a href="#" data-target="slide-out" className="sidenav-trigger">
-            <i className="material-icons">menu</i>
+            <Hamburger />
           </a>
           <ul id="nav-mobile" className="hide-on-med-and-down">
             <li>const nav = [</li>
