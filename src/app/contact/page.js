@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "contact",
+  description: "It's my email.",
+};
+
 const Contact = () => {
   return (
     <div className="container">

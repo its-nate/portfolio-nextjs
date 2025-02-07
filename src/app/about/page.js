@@ -30,13 +30,15 @@ const About = () => {
           <p className="page-body">
             When I’m not at the keyboard I can be found on a beach or mountain.
           </p>
-          <Image
-            src="/images/nate-headshot.jpg"
-            alt="Nate Micinski Headshot"
-            className="profile-img"
-            width={500}
-            height={500}
-          />
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <Image
+              src="/images/nate-headshot.jpg"
+              alt="Nate Micinski Headshot"
+              className="profile-img"
+              width={500}
+              height={500}
+            />
+          </div>
         </div>
       </div>
     </div>

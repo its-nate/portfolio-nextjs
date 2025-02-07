@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "code",
+  description: "It's my code.",
+};
+
 const Code = () => {
   return (
     <div className="container">

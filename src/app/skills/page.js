@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "skills",
+  description: "It's my skills.",
+};
+
 const Skills = () => {
   return (
     <div className="container">
