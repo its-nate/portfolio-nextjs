@@ -2,6 +2,7 @@ import "materialize-css/dist/css/materialize.css";
 import "./globals.css";
 import ClientLayout from "./components/ClientLayout";
 
+// TODO: update metadata
 export const metadata = {
   title: {
     template: "%s | its-nate",
