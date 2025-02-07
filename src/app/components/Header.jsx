@@ -1,11 +1,18 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Hamburger from "../icons/Hamburger";
 
 const Header = () => {
   const [activeNav, setActiveNav] = useState("home");
+  const pathname = usePathname();
+
+  useEffect(() => {
+    const currentRoute = pathname.slice(1) || "home";
+    setActiveNav(currentRoute);
+  }, [pathname]);
 
   return (
     <header>
