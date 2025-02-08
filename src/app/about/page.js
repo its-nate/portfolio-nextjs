@@ -20,15 +20,15 @@ const About = () => {
             I'm a software engineer living in California.
           </p>
           <p className="page-body">
-            I’ve been writing code professionally for over 7 years and can’t get
-            enough. I’m always looking to take on new projects or
-            opportunities—if you’re interested in working with me, make sure to{" "}
+            I've been writing code professionally for over 7 years and can't get
+            enough. I'm always looking to take on new projects or
+            opportunities—if you're interested in working with me, make sure to{" "}
             <Link href="/contact" className="page-link">
               drop me a line!
             </Link>
           </p>
           <p className="page-body">
-            When I’m not at the keyboard I can be found on a beach or mountain.
+            When I'm not at the keyboard I can be found on a beach or mountain.
           </p>
           <div style={{ display: "flex", justifyContent: "center" }}>
             <Image

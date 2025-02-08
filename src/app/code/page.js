@@ -30,7 +30,7 @@ const Code = () => {
       <div className="row">
         <div className="col s12">
           <p className="page-body">
-            I also profile projects I’ve completed through my company,&nbsp;
+            I also profile projects I've completed through my company,&nbsp;
             <a
               href="https://vaya.digital"
               target="_blank"
