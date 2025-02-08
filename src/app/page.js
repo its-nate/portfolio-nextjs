@@ -14,13 +14,13 @@ export default function Home() {
       </div>
       <div className="row">
         <div className="col s12">
-          <h2 className="page-subhead">I make cool websites.</h2>
+          <h2 className="page-subhead">I make digital things.</h2>
         </div>
       </div>
       <div className="row">
         <div className="col s12">
           <p className="page-body">
-            The things I build focus on their essence. I believe technology
+            The products I build focus on their essence. I believe technology
             works best in a simple, uncluttered way.
           </p>
           <p className="page-body">
