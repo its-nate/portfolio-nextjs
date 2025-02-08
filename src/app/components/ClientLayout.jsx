@@ -3,17 +3,21 @@
 import { useEffect } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import M from "materialize-css";
 
 export default function ClientLayout({ children }) {
   useEffect(() => {
-    setTimeout(function () {
+    const initializeMaterialize = async () => {
+      const M = (await import("materialize-css")).default;
       const sideNavElems = document.querySelectorAll(".sidenav");
-      const sideNavInstances = M.Sidenav.init(sideNavElems, {
-        preventScrolling: true,
-        draggable: false,
-      });
-    }, 500);
+      if (sideNavElems.length > 0) {
+        M.Sidenav.init(sideNavElems, {
+          preventScrolling: true,
+          draggable: false,
+        });
+      }
+    };
+
+    setTimeout(initializeMaterialize, 500);
   }, []);
 
   return (
