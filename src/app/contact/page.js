@@ -19,8 +19,8 @@ const Contact = () => {
       <div className="row">
         <div className="col s12">
           <p className="page-body mb-0">
-            <a href="mailto:nmicinski@gmail.com" className="page-link">
-              nmicinski@gmail.com
+            <a href="mailto:nate@vaya.digital" className="page-link">
+              nate@vaya.digital
             </a>
           </p>
         </div>

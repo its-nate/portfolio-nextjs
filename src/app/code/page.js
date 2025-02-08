@@ -23,30 +23,21 @@ const Code = () => {
             >
               GitHub
             </a>
-            , including the{" "}
-            <a
-              href="https://github.com/its-nate/portfolio-gatsby"
-              target="_blank"
-              rel="noreferrer"
-              className="page-link"
-            >
-              source code for this site.
-            </a>
+            .
           </p>
         </div>
       </div>
       <div className="row">
         <div className="col s12">
           <p className="page-body">
-            I also profile some projects I’ve completed through my
-            company,&nbsp;
+            I also profile projects I’ve completed through my company,&nbsp;
             <a
-              href="https://www.holisticwebsolutions.com"
+              href="https://vaya.digital"
               target="_blank"
               rel="noreferrer"
               className="page-link"
             >
-              Holistic Web Solutions
+              Vaya Digital LLC
             </a>
             , on their site.
           </p>

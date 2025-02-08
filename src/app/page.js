@@ -26,15 +26,15 @@ export default function Home() {
             works best in a simple, uncluttered way.
           </p>
           <p className="page-body">
-            I'm a Frontend Software Engineer doing contract and subcontract work
-            through my company,{" "}
+            I'm a Software Engineer doing contract and subcontract work through
+            my company,{" "}
             <a
-              href="https://www.holisticwebsolutions.com"
+              href="https://vaya.digital"
               target="_blank"
               rel="noreferrer"
               className="page-link"
             >
-              Holistic Web Solutions
+              Vaya Digital LLC
             </a>
             .
           </p>
