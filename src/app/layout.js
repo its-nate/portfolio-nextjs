@@ -9,23 +9,23 @@ export const metadata = {
     template: "%s | its-nate",
     default: "its-nate",
   },
-  metadataBase: new URL("https://its-nate.dev"),
-  openGraph: {
-    title: "its-nate",
-    description: "It's me, Nate",
-    url: "https://its-nate.dev",
-    siteName: "its-nate",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "its-nate",
-      },
-    ],
-    locale: "en_US",
-    type: "website",
-  },
+  // metadataBase: new URL("https://its-nate.dev"),
+  // openGraph: {
+  //   title: "its-nate",
+  //   description: "It's me, Nate",
+  //   url: "https://its-nate.dev",
+  //   siteName: "its-nate",
+  //   images: [
+  //     {
+  //       url: "/og-image.png",
+  //       width: 1200,
+  //       height: 630,
+  //       alt: "its-nate",
+  //     },
+  //   ],
+  //   locale: "en_US",
+  //   type: "website",
+  // },
 };
 
 const ubuntu = Ubuntu({
