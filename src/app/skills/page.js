@@ -1,6 +1,6 @@
 export const metadata = {
   title: "skills",
-  description: "It's my skills.",
+  description: "It’s my skills.",
 };
 
 const Skills = () => {
@@ -8,7 +8,7 @@ const Skills = () => {
     <div className="container">
       <div className="row">
         <div className="col s12">
-          <h1 className="page-header">It's my skills.</h1>
+          <h1 className="page-header">It’s my skills.</h1>
         </div>
       </div>
       <div className="row">

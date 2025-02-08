@@ -1,6 +1,6 @@
 export const metadata = {
   title: "code",
-  description: "It's my code.",
+  description: "It’s my code.",
 };
 
 const Code = () => {
@@ -8,7 +8,7 @@ const Code = () => {
     <div className="container">
       <div className="row">
         <div className="col s12">
-          <h1 className="page-header">It's my code.</h1>
+          <h1 className="page-header">It’s my code.</h1>
         </div>
       </div>
       <div className="row">
@@ -30,7 +30,7 @@ const Code = () => {
       <div className="row">
         <div className="col s12">
           <p className="page-body">
-            I also profile projects I've completed through my company,&nbsp;
+            I also profile projects I’ve completed through my company,&nbsp;
             <a
               href="https://vaya.digital"
               target="_blank"

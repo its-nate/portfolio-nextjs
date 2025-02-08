@@ -9,7 +9,7 @@ export default function Home() {
     <div className="container">
       <div className="row">
         <div className="col s12">
-          <h1 className="page-header">It's me, Nate.</h1>
+          <h1 className="page-header">It’s me, Nate.</h1>
         </div>
       </div>
       <div className="row">
@@ -24,7 +24,7 @@ export default function Home() {
             works best in a simple, uncluttered way.
           </p>
           <p className="page-body">
-            I'm a Software Engineer doing contract and subcontract work through
+            I’m a Software Engineer doing contract and subcontract work through
             my company,{" "}
             <a
               href="https://vaya.digital"
